@@ -1,0 +1,19 @@
+{
+    "name"       : "com.xjine.debuglog_context_weaver",
+    "displayName": "DebugLog Context Weaver", 
+    "version"    : "1.0.0",
+    "unity"      : "2021.3",
+    "description": "Rewrites UnityEngine.Debug.Log(…)-style calls into the overload that passes 'this' as the context.",
+    "author"     :
+    {
+        "name": "XJINE",
+        "url" : "https://github.com/XJINE"
+    },
+    "keywords":
+    [
+    ],
+    "dependencies":
+    {
+        "com.unity.nuget.mono-cecil": "1.11.4"
+    }
+}
